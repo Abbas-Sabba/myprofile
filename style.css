@@ -1,0 +1,187 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.705); /* Warna latar belakang navbar */
+  transition: top 0.3s; /* Transisi ketika navbar bergerak */
+}
+
+/* Desain item navigasi */
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+#navbar ul li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+#navbar ul li a {
+  color: #01575f; /* Warna teks */
+  text-decoration: none;
+}
+
+
+:root {
+  --main-bg-color: #018491;
+  --head-bg-color: rgb(128, 169, 177);
+}
+
+.head {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: var(--head-bg-color);
+}
+.head .container .row .kiri .content h1 {
+  font-weight: bold;
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.head .container .row .kiri .content h3 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+}
+.head .container .row .kiri .content :hover {
+  border-radius: 15px;
+  color: #01575f;
+}
+.head .container .row .kanan .img-fluid {
+  width: 500px;
+  height: 500px;
+}
+
+
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --main-bg-color: #018491;
+  --desk-bg-color: rgb(255, 255, 255);
+}
+
+.desk {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: var(--desk-bg-color);
+
+}
+.t {
+  font-weight: regular;
+  font-size: 20px;
+  color: #01575f;
+}
+.rectangle {
+    width: 200px;
+    height: 5px;
+    background-color: #01575f;
+}
+.desk .container .row .content p {
+  font-weight: regular;
+  font-size: 20px;
+  color: #01575f;
+}
+.desk .container .row .kiri .content :hover {
+  border-radius: 15px;
+  color: #52bfc9;
+}
+.desk .container .row .kanan .img-fluid {
+  width: 500px;
+  height: 500px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --main-bg-color: #018491;
+  --favo-bg-color: rgb(128, 169, 177);
+}
+
+.favo {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: var(--favo-bg-color);
+
+}
+.te {
+  font-weight: regular;
+  font-size: 20px;
+  color: #ffffff;
+}
+.favo .rectangle {
+    width: 200px;
+    height: 5px;
+    background-color: #ffffff;
+}
+.favo .container .row .content p {
+  font-weight: regular;
+  font-size: 20px;
+  color: #ffffff;
+}
+.favo .container .row .kiri .comtent .ul {
+  color: #ffffff;
+}
+.ti {
+color: rgb(255, 255, 255);
+}
+.it {
+  color: rgb(255, 255, 255);
+  }
+  .pa {
+    color: rgb(255, 255, 255);
+    }
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --main-bg-color: #018491;
+  --soc-bg-color: rgb(255, 255, 255);
+}
+
+.soc {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: var(--soc-bg-color);
+
+}
+.soc .rectangle {
+    width: 200px;
+    height: 5px;
+    background-color: #01575f;
+}
+.soc .container .row .content p {
+  font-weight: regular;
+  font-size: 20px;
+  color: #01575f;
+}
+.soc .container .row .kiri .content :hover {
+  border-radius: 15px;
+  color: #52bfc9;
+}
+.soc .container .row .kanan .img-fluid {
+  width: 500px;
+  height: 500px;
+}
+
+.copy {
+  color: #ffffff;
+  background-color: rgb(128, 169, 177);
+}
